@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Fira+Sans:wght@200&family=Mukta:wght@600&display=swap');
+
+
+:root {
+
+   --cor-fundo:rgba(128, 128, 128, 0.096);
+   --cor-botao-enviar: green; 
+   --cor-botao-limpar: red;
+   --cor-borda-botao: groove black;
+
+}
+
+body{
+
+    background-color: var(--cor-fundo);
+
+}
+
+button[type="submit"]{
+
+    background-color: var(--cor-botao-enviar);
+    border: var(--cor-borda-botao)
+
+}
+button[type="reset"]{
+
+    background-color: var(--cor-botao-limpar);
+    border: var(--cor-borda-botao)
+    
+}
+
+input{
+
+    font-family:cursive;
+
+}
+fieldset{
+
+    border: dotted blue 
+    
+
+}
+
+label{
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#img1{
+    
+
+    float: right;
+    width: 250px;
+    height: 200px;
+     
+
+}
+
+header{
+    clear: both;
+
+}
